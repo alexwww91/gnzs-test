@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+}
+
+button {
+    outline: none;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 16px;
+    width: 100px;
+}
+
+select {
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#app {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select {
+    color: #2e3640;
+    background: #fcfcfc;
+    border: #e8eaea 1px solid;
+    width: 250px;
+}
+
+.inactive {
+    color: #2e3640;
+    background: #fcfcfc;
+    border: #e8eaea 1px solid;
+}
+
+.active {
+    color: #fcfcfc;
+    background: #4c8bf7;
+    border: #6692de 1px solid;
+    cursor: pointer;
+}
+
+.active:hover {
+    background: #2371f8;
+}
+
+.load {
+    color: #fcfcfc;
+    background: #4c8bf7;
+    border: #6692de 1px solid;
+}
+
+.result {
+    padding: 10px 0;
+}
+
+.result p {
+    text-align: center;
+    font-size: 18px;
+    color: #2e3640;
+}
